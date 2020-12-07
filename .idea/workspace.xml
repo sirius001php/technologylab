@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="264ede3b-b5a8-4ce2-aeaa-97b9d66b5c04" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kk63Vw3bdRnZNFMcKJHwJVvPfM" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="technology_lab2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PassengerTest.equals_checkEquality_True">
+    <configuration name="CarTest.addExhibit_addElementToArray_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarBody" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technology_lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="technology_lab2" />
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.CarTest" />
+      <option name="METHOD_NAME" value="addExhibit_addElementToArray_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarBody" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technology_lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="technology_lab2" />
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.LocationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationTest.constructorWhereLoc_CheckValidness_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarBody" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technology_lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="technology_lab2" />
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.LocationTest" />
+      <option name="METHOD_NAME" value="constructorWhereLoc_CheckValidness_String" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocationTest.getInitials_CheckWithValidData_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarBody" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technology_lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="technology_lab2" />
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.LocationTest" />
+      <option name="METHOD_NAME" value="getInitials_CheckWithValidData_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassengerTest.equals_checkEquality_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CarBody" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="technology_lab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="technology_lab2" />
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.PassengerTest" />
+      <option name="METHOD_NAME" value="equals_checkEquality_True" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PassengerTest.equals_checkEquality_True" />
+        <item itemvalue="JUnit.LocationTest.constructorWhereLoc_CheckValidness_String" />
+        <item itemvalue="JUnit.LocationTest" />
+        <item itemvalue="JUnit.LocationTest.getInitials_CheckWithValidData_True" />
+        <item itemvalue="JUnit.CarTest.addExhibit_addElementToArray_True" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="264ede3b-b5a8-4ce2-aeaa-97b9d66b5c04" name="Default Changelist" comment="" />
+      <created>1606232042259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606232042259</updated>
+    </task>
+    <servers />
+  </component>
+</project>
