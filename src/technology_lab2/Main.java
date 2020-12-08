@@ -6,17 +6,17 @@ public class Main {
     public static void main(String[] args) {
         Location loc = new Location("Germany", "Berlin", "KA150");
         Car avtopark = new Car("Volkswagen");
-        avtopark.addBody(new Passenger("Golf", "ZFA22300005556777", BodyType.Hatchback, 2019, 1789, 4284, 5, "C", loc));
-        avtopark.addBody(new Passenger("Passat", "KTA22340055556333", BodyType.Sedan, 2015, 1832, 4767, 5, "D", loc));
-        avtopark.addBody(new Passenger("Passat", "ZXC22340123556333", BodyType.Stretch, 2012, 1832, 4867, 5, "D", loc));
-        avtopark.addBody(new Passenger("Golf", "MLA22340200356744", BodyType.Convertible, 2019, 1709, 4084, 4, "C", loc));
-        avtopark.addBody(new Truck("Caddy", "PZEL2340200356744", BodyType.Van, 2010, 1794, 4876, 750, loc));
-        avtopark.addBody(new Truck("Transporter", "PlEF234FE00M6744", BodyType.Pickup, 2010, 1904, 5292, 2050, loc));
+        avtopark.addBody(new Passenger("Golf", "ZFA22300005556777", BodyType.Hatchback, 2019, 1789, 4284, 5, "C", loc, 1300));
+        avtopark.addBody(new Passenger("Passat", "KTA22340055556333", BodyType.Sedan, 2015, 1832, 4767, 5, "D", loc, 1900));
+        avtopark.addBody(new Passenger("Passat", "ZXC22340123556333", BodyType.Stretch, 2012, 1832, 4867, 5, "D", loc, 1700));
+        avtopark.addBody(new Passenger("Golf", "MLA22340200356744", BodyType.Convertible, 2019, 1709, 4084, 4, "C", loc, 1800));
+        avtopark.addBody(new Truck("Caddy", "PZEL2340200356744", BodyType.Van, 2010, 1794, 4876, 750, loc, 1400));
+        avtopark.addBody(new Truck("Transporter", "PlEF234FE00M6744", BodyType.Pickup, 2010, 1904, 5292, 2050, loc, 1300));
         printInfo(avtopark);
 
         Car avtopark2 = new Car("BMW");
-        avtopark.addBody(new Passenger("E39", "ZFA22300005556777", BodyType.Hatchback, 2019, 1789, 4284, 5, "C", loc));
-        avtopark.addBody(new Passenger("X5", "KTA22340055556333", BodyType.Sedan, 2015, 1832, 4767, 5, "D", loc));
+        avtopark.addBody(new Passenger("E39", "ZFA22300005556777", BodyType.Hatchback, 2019, 1789, 4284, 5, "C", loc, 2000));
+        avtopark.addBody(new Passenger("X5", "KTA22340055556333", BodyType.Sedan, 2015, 1832, 4767, 5, "D", loc, 3000));
         printInfo(avtopark);
 
         if(avtopark.equals(avtopark2)) {
@@ -31,6 +31,13 @@ public class Main {
             Boody boody = (Boody) iterator.next();
             System.out.println(boody.toString());
         }
+        System.out.println(cars.getTypeOfBody(body -> body instanceof Truck));
+        System.out.println("Total price of all body cars + parking fee = "
+            + cars.getTotalPrice() + "USD");
+        System.out.println("Dearest body: " + cars.getMaxPrice());
+        System.out.println("Average price of body: " + cars.getAveragePrice());
+        System.out.println(cars.getBodiesByPrice());
+        System.out.println(cars.getBodyType());
     }
 }
 

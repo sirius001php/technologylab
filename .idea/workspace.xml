@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="264ede3b-b5a8-4ce2-aeaa-97b9d66b5c04" name="Default Changelist" comment="" />
+    <list default="true" id="264ede3b-b5a8-4ce2-aeaa-97b9d66b5c04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/META-INF/CarBody.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Boody$AllInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Boody$AllInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Boody.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Boody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Truck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CarBody/technology_lab2/Truck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CarBody/technology_lab2/CarTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CarBody/technology_lab2/LocationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CarBody/technology_lab2/PassengerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/CarBody/technology_lab2/TruckTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technology_lab2/Boody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/technology_lab2/Boody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technology_lab2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/technology_lab2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technology_lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/technology_lab2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technology_lab2/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/technology_lab2/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/technology_lab2/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/technology_lab2/Truck.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +35,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kk63Vw3bdRnZNFMcKJHwJVvPfM" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -49,8 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PassengerTest.equals_checkEquality_True">
-    <configuration name="CarTest.addExhibit_addElementToArray_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="technology_lab2.Main" />
       <module name="CarBody" />
       <extension name="coverage">
         <pattern>
@@ -58,10 +82,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="technology_lab2" />
-      <option name="MAIN_CLASS_NAME" value="technology_lab2.CarTest" />
-      <option name="METHOD_NAME" value="addExhibit_addElementToArray_True" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PassengerTest.equals_checkEquality_True" />
         <item itemvalue="JUnit.LocationTest.constructorWhereLoc_CheckValidness_String" />
         <item itemvalue="JUnit.LocationTest" />
         <item itemvalue="JUnit.LocationTest.getInitials_CheckWithValidData_True" />
-        <item itemvalue="JUnit.CarTest.addExhibit_addElementToArray_True" />
       </list>
     </recent_temporary>
   </component>
@@ -151,5 +171,16 @@
       <updated>1606232042259</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -9,6 +9,7 @@ public abstract class Boody {
     private int height;
     private String model;
     private Location location;
+    protected int price;
     //    клас AllInformation створений для зберігання всієї інформації
     private class AllInformation {
         private String info;
@@ -37,7 +38,7 @@ public abstract class Boody {
     }
     private AllInformation allInformation;
 
-    public Boody (String model, String VINnumber, BodyType type, int year_production, int width, int height, Location loc){
+    public Boody (String model, String VINnumber, BodyType type, int year_production, int width, int height, Location loc, int p){
         this.model = model;
         this.VINnumber = VINnumber;
         this.body_type = type;
@@ -45,8 +46,9 @@ public abstract class Boody {
         this.width = width;
         this.height = height;
         this.location = loc;
+        this.price = p;
         this.allInformation = new AllInformation("model: " + model + " VIN number: " + VINnumber + " Year production: " + year_production
-                + " width body car: " + width + " height body car: " + height + " ", type + "." + loc);
+                + " width body car: " + width + " height body car: " + height + " ", type + "." + loc + " price = " + p);
     }
 
     public void setAllInformation(String info) {
@@ -103,6 +105,14 @@ public abstract class Boody {
 
     public int getHeight() {
         return height;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
     }
 
     @Override

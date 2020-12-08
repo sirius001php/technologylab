@@ -5,13 +5,13 @@ public class Passenger extends Boody {
     private int passenger_seats;
     private String car_class;
     public Passenger(String model, String VINnumber, BodyType body_type, int year_production,
-                     int w, int h, int passenger_seats, String car_class, Location loc){
-        super(model, VINnumber, body_type, year_production, w ,h, loc);
+                     int w, int h, int passenger_seats, String car_class, Location loc, int p){
+        super(model, VINnumber, body_type, year_production, w ,h, loc, p);
         this.passenger_seats = passenger_seats;
         this.car_class = car_class;
         this.setAllInformation("model: " + model + " VIN number: " + VINnumber + " Year production: " + year_production
                 + " width body car: " + w + " height body car: " + h + ". Car has a class: " + car_class + ";" +
-                " number of passenger seats " + passenger_seats + "." + loc);
+                " number of passenger seats " + passenger_seats + "." + loc + " price = " + p);
     }
 
     public String getCar_class() {
@@ -29,4 +29,5 @@ public class Passenger extends Boody {
     public int getPassenger_seats() {
         return passenger_seats;
     }
+
 }
